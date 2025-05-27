@@ -1,0 +1,12 @@
+requests
+beautifulsoup4
+pymongo
+python-dateutil
+streamlit
+pymongo
+pandas
+matplotlib
+seaborn
+wordcloud
+nltk
+
