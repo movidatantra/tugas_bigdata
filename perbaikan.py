@@ -77,7 +77,7 @@ def ambil_isi_artikel(link):
 
         if tanggal:
             try:
-                tanggal = dateparser.parse(tanggal, fuzzy=True)
+                tanggal = dateparse.parse(tanggal, fuzzy=True)
             except:
                 tanggal = datetime.now()
         else:
