@@ -13,7 +13,8 @@ nltk.download('stopwords')
 stop_words = set(stopwords.words('indonesian'))
 
 # Koneksi MongoDB
-client = MongoClient("mongodb://localhost:27017/")
+MONGO_URI = st.secrets["MONGO_URI"]
+client = MongoClient(MONGO_URI)
 db = client["kanker_db"]
 collection = db["perbaikan_uts"]
 
